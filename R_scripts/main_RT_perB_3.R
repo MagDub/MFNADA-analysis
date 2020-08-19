@@ -1,4 +1,5 @@
 
+source('~/MFnada/MFNADA-Stats/R_scripts/fct_analysis_2way_perB3.R')
 
 #### ALL GROUPS
 
@@ -14,4 +15,5 @@ fileConn<-file("~/MFnada/MFNADA-Stats/txt_res/results_RT_perB3.txt")
 writeLines(all_text, fileConn)
 
 close(fileConn)
+
 

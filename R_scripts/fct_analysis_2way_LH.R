@@ -28,7 +28,7 @@ rm_anova_MF_LH <- function(x1, x2, x3, x4, x5, x6) {
   
   # Summary statistics
   data_tmp %>%
-    group_by(sample, Drug) %>%
+    group_by(sample) %>%
     get_summary_stats(freq, type = "mean_sd")
   
   # Anova computation
