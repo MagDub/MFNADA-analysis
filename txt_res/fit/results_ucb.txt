@@ -1,0 +1,71 @@
+
+
+GAMMA:
+
+ (horizon main effect: F( 1 , 54 )= 0.883 , p= 0.352 , pes= 0.016 ; drug main effect: F( 2 , 54 )= 2.319 , p= 0.108 , pes= 0.079 ; drug-by-horizon interaction: F( 2 , 54 )= 4.898 , p= 0.011 , pes= 0.154 ; WASI main effect: F( 1 , 54 )= 0.053 , p= 0.819 , pes= 0.001 ; WASI-by-horizon interaction: F( 1 , 54 ) = 0.261 , p= 0.612 , pes= 0.005 ; PANAS_NA main effect: F( 1 , 54 ) = 4.707 , p= 0.034 , pes= 0.08 ; PANAS_NA-by-horizon interaction: F( 1 , 54 ) = 4.525 , p= 0.038 , pes= 0.077 )
+
+-------------------------------------------------------
+
+Pairwise comparisons for horizon effect (placebo: t( 19 )= 2.257 , p= 0.037 , d= 0.762 ; noradrenaline: t( 20 )= 0.277 , p= 0.785 , d= 0.062 ; dopamine: t( 20 )= 3.408 , p= 0.003 , d= 0.518 )
+
+-------------------------------------------------------
+
+Pairwise comparisons for drug effect (placebo vs noradrenaline: t( 38 )= 0.814 , p= 0.42 , d= 0.339 ; dopamine vs placebo: t( 40 )= 0.434 , p= 0.666 , d= 0.099 ; dopamine vs noradrenaline: t( 40 )= 1.517 , p= 0.135 , d= 0.188 )
+
+-------------------------------------------------------
+
+Pairwise comparisons for horizon x drug effect:   short horizon:  (placebo vs noradrenaline: t( 19 )= -2.369 , p= 0.029 ; dopamine vs placebo: t( 20 )= 1.045 , p= 0.309 ; dopamine vs noradrenaline: t( 20 )= -2.169 , p= 0.042  long horizon:  (placebo vs noradrenaline: t( 19 )= 1.436 , p= 0.165 ; dopamine vs placebo: t( 20 )= 0.437 , p= 0.665 ; dopamine vs noradrenaline: t( 20 )= 2.366 , p= 0.026 )) 
+
+
+
+TAU:
+
+ (horizon main effect: F( 1 , 54 )= 7.158 , p= 0.01 , pes= 0.117 ; drug main effect: F( 2 , 54 )= 4.179 , p= 0.021 , pes= 0.134 ; drug-by-horizon interaction: F( 2 , 54 )= 0.426 , p= 0.655 , pes= 0.016 ; WASI main effect: F( 1 , 54 )= 9.716 , p= 0.003 , pes= 0.152 ; WASI-by-horizon interaction: F( 1 , 54 ) = 5.536 , p= 0.022 , pes= 0.093 ; PANAS_NA main effect: F( 1 , 54 ) = 4.236 , p= 0.044 , pes= 0.073 ; PANAS_NA-by-horizon interaction: F( 1 , 54 ) = 1.742 , p= 0.192 , pes= 0.031 )
+
+-------------------------------------------------------
+
+Pairwise comparisons for horizon effect (placebo: t( 19 )= 0.886 , p= 0.388 , d= 0.276 ; noradrenaline: t( 20 )= 1.616 , p= 0.123 , d= 0.361 ; dopamine: t( 20 )= 1.233 , p= 0.233 , d= 0.203 )
+
+-------------------------------------------------------
+
+Pairwise comparisons for drug effect (placebo vs noradrenaline: t( 38 )= 0.667 , p= 0.507 , d= 0.589 ; dopamine vs placebo: t( 40 )= 1.451 , p= 0.151 , d= 0.331 ; dopamine vs noradrenaline: t( 40 )= 2.633 , p= 0.01 , d= 0.153 )
+
+-------------------------------------------------------
+
+Pairwise comparisons for horizon x drug effect:   short horizon:  (placebo vs noradrenaline: t( 19 )= 0.619 , p= 0.54 ; dopamine vs placebo: t( 20 )= 1.635 , p= 0.113 ; dopamine vs noradrenaline: t( 20 )= 2.014 , p= 0.052  long horizon:  (placebo vs noradrenaline: t( 19 )= 0.474 , p= 0.64 ; dopamine vs placebo: t( 20 )= 0.813 , p= 0.423 ; dopamine vs noradrenaline: t( 20 )= 1.801 , p= 0.08 )) 
+
+
+
+EPSILON:
+
+ (horizon main effect: F( 1 , 54 )= 5.588 , p= 0.022 , pes= 0.094 ; drug main effect: F( 2 , 54 )= 4.503 , p= 0.016 , pes= 0.143 ; drug-by-horizon interaction: F( 2 , 54 )= 0.007 , p= 0.993 , pes= 0 ; WASI main effect: F( 1 , 54 )= 11.591 , p= 0.001 , pes= 0.177 ; WASI-by-horizon interaction: F( 1 , 54 ) = 9.097 , p= 0.004 , pes= 0.144 ; PANAS_NA main effect: F( 1 , 54 ) = 2.556 , p= 0.116 , pes= 0.045 ; PANAS_NA-by-horizon interaction: F( 1 , 54 ) = 0.042 , p= 0.838 , pes= 0.001 )
+
+-------------------------------------------------------
+
+Pairwise comparisons for horizon effect (placebo: t( 19 )= 1.254 , p= 0.226 , d= 0.108 ; noradrenaline: t( 20 )= 0.766 , p= 0.453 , d= 0.171 ; dopamine: t( 20 )= 0.484 , p= 0.634 , d= 0.288 )
+
+-------------------------------------------------------
+
+Pairwise comparisons for drug effect (placebo vs noradrenaline: t( 38 )= 2.185 , p= 0.033 , d= 0.386 ; dopamine vs placebo: t( 40 )= -0.665 , p= 0.508 , d= 0.151 ; dopamine vs noradrenaline: t( 40 )= 1.724 , p= 0.089 , d= 0.501 )
+
+-------------------------------------------------------
+
+Pairwise comparisons for horizon x drug effect:   short horizon:  (placebo vs noradrenaline: t( 19 )= 1.041 , p= 0.306 ; dopamine vs placebo: t( 20 )= -0.067 , p= 0.947 ; dopamine vs noradrenaline: t( 20 )= 1.071 , p= 0.291  long horizon:  (placebo vs noradrenaline: t( 19 )= 2.079 , p= 0.048 ; dopamine vs placebo: t( 20 )= -0.879 , p= 0.386 ; dopamine vs noradrenaline: t( 20 )= 1.385 , p= 0.176 )) 
+
+
+
+NOV:
+
+ (horizon main effect: F( 1 , 54 )= 8.073 , p= 0.006 , pes= 0.13 ; drug main effect: F( 2 , 54 )= 0.147 , p= 0.863 , pes= 0.005 ; drug-by-horizon interaction: F( 2 , 54 )= 4.117 , p= 0.022 , pes= 0.132 ; WASI main effect: F( 1 , 54 )= 5.981 , p= 0.018 , pes= 0.1 ; WASI-by-horizon interaction: F( 1 , 54 ) = 14.362 , p= 0 , pes= 0.21 ; PANAS_NA main effect: F( 1 , 54 ) = 0.601 , p= 0.442 , pes= 0.011 ; PANAS_NA-by-horizon interaction: F( 1 , 54 ) = 0.279 , p= 0.599 , pes= 0.005 )
+
+-------------------------------------------------------
+
+Pairwise comparisons for horizon effect (placebo: t( 19 )= 3.735 , p= 0.002 , d= 0.056 ; noradrenaline: t( 20 )= 4.127 , p= 0.001 , d= 0.923 ; dopamine: t( 20 )= 0.251 , p= 0.805 , d= 0.857 )
+
+-------------------------------------------------------
+
+Pairwise comparisons for drug effect (placebo vs noradrenaline: t( 38 )= 1.029 , p= 0.307 , d= 0.202 ; dopamine vs placebo: t( 40 )= -0.085 , p= 0.933 , d= 0.019 ; dopamine vs noradrenaline: t( 40 )= 0.902 , p= 0.37 , d= 0.231 )
+
+-------------------------------------------------------
+
+Pairwise comparisons for horizon x drug effect:   short horizon:  (placebo vs noradrenaline: t( 19 )= 1.104 , p= 0.277 ; dopamine vs placebo: t( 20 )= 0.912 , p= 0.367 ; dopamine vs noradrenaline: t( 20 )= 1.834 , p= 0.075  long horizon:  (placebo vs noradrenaline: t( 19 )= 0.454 , p= 0.652 ; dopamine vs placebo: t( 20 )= -0.846 , p= 0.403 ; dopamine vs noradrenaline: t( 20 )= -0.332 , p= 0.742 )) 
