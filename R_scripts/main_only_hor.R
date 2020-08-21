@@ -1,5 +1,5 @@
 
-source('~/GoogleDrive/UCL/MF/analysis/stats/R_scripts/fct_analysis_2way_only_hor.R')
+source('~/MFnada/MFNADA-Stats/R_scripts/fct_analysis_2way_only_hor.R')
 
 #### ALL GROUPS
 
@@ -19,6 +19,6 @@ all_text = c(
   'SCORE: 1st SH vs all LH','', rm_anova_MF_only_hor('first_SH', 'all_LH') 
 )
 
-fileConn<-file("~/GoogleDrive/UCL/MF/analysis/stats/txt_res/results_onlyhor.txt")
+fileConn<-file("~/MFnada/MFNADA-Stats/txt_res/results_1way_hor.txt")
 writeLines(all_text, fileConn)
 close(fileConn)

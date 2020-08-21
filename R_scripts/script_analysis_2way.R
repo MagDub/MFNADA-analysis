@@ -10,8 +10,8 @@
   library(readxl)
 
   
-  x1 <- 'mod8_UCB_xi_SH'
-  x2 <- 'mod8_UCB_xi_LH'
+  x1 <- 'high_SH'
+  x2 <- 'high_LH'
   
   dataMF <- read_excel("~/GoogleDrive/UCL/MF/analysis/stats/data_for_R/thomp_3_params_like_param_recovery_Q0norm_no506.xlsx")    
   

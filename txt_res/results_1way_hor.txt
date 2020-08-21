@@ -1,0 +1,79 @@
+
+
+HIGH VALUE 
+
+ SH mean:  51.585 ( 9.942 ), LH mean:  42.644 ( 12.116 ) ;  (horizon main effect: F( 1 , 56 )= 54.73 , p= 0 , pes= 0.494 ; WASI main effect: F( 1 , 56 )= 4.865 , p= 0.032 , pes= 0.08 ; WASI-by-horizon interaction: F( 1 , 56 ) = 16.083 , p= 0 , pes= 0.223 ; PANAS_NA main effect: F( 1 , 56 ) = 3.149 , p= 0.081 , pes= 0.053 ; PANAS_NA-by-horizon interaction: F( 1 , 56 ) = 0.963 , p= 0.331 , pes= 0.017 )
+
+-------------------------------------------------------
+
+Pairwise comparisons for horizon effect (placebo: t( 19 )= -5.534 , p= 0 ; noradrenaline: t( 20 )= -3.587 , p= 0.002 ; dopamine: t( 20 )= -2.461 , p= 0.024 )
+
+
+
+LOW VALUE 
+
+ SH mean:  3.364 ( 2.673 ), LH mean:  4.737 ( 3.258 ) ;  (horizon main effect: F( 1 , 56 )= 23.231 , p= 0 , pes= 0.293 ; WASI main effect: F( 1 , 56 )= 20.152 , p= 0 , pes= 0.265 ; WASI-by-horizon interaction: F( 1 , 56 ) = 0.319 , p= 0.574 , pes= 0.006 ; PANAS_NA main effect: F( 1 , 56 ) = 1.138 , p= 0.291 , pes= 0.02 ; PANAS_NA-by-horizon interaction: F( 1 , 56 ) = 1.95 , p= 0.168 , pes= 0.034 )
+
+-------------------------------------------------------
+
+Pairwise comparisons for horizon effect (placebo: t( 19 )= 3.953 , p= 0.001 ; noradrenaline: t( 20 )= 2.498 , p= 0.022 ; dopamine: t( 20 )= 2.025 , p= 0.057 )
+
+
+
+NOVEL 
+
+ SH mean:  38.712 ( 10.936 ), LH mean:  46.322 ( 15.053 ) ;  (horizon main effect: F( 1 , 56 )= 38.042 , p= 0 , pes= 0.405 ; WASI main effect: F( 1 , 56 )= 16.805 , p= 0 , pes= 0.231 ; WASI-by-horizon interaction: F( 1 , 56 ) = 15.222 , p= 0 , pes= 0.214 ; PANAS_NA main effect: F( 1 , 56 ) = 0.81 , p= 0.372 , pes= 0.014 ; PANAS_NA-by-horizon interaction: F( 1 , 56 ) = 0.268 , p= 0.607 , pes= 0.005 )
+
+-------------------------------------------------------
+
+Pairwise comparisons for horizon effect (placebo: t( 19 )= 3.979 , p= 0.001 ; noradrenaline: t( 20 )= 3.357 , p= 0.003 ; dopamine: t( 20 )= 2.149 , p= 0.045 )
+
+
+
+IG:
+
+ SH mean:  1.282 ( 0.247 ), LH mean:  1.084 ( 0.329 ) ;  (horizon main effect: F( 1 , 56 )= 58.78 , p= 0 , pes= 0.512 ; WASI main effect: F( 1 , 56 )= 11.319 , p= 0.001 , pes= 0.168 ; WASI-by-horizon interaction: F( 1 , 56 ) = 14.833 , p= 0 , pes= 0.209 ; PANAS_NA main effect: F( 1 , 56 ) = 1.926 , p= 0.171 , pes= 0.033 ; PANAS_NA-by-horizon interaction: F( 1 , 56 ) = 0.648 , p= 0.424 , pes= 0.011 )
+
+-------------------------------------------------------
+
+Pairwise comparisons for horizon effect (placebo: t( 19 )= -5.201 , p= 0 ; noradrenaline: t( 20 )= -3.301 , p= 0.004 ; dopamine: t( 20 )= -3.445 , p= 0.003 )
+
+
+
+EV:
+
+ SH mean:  6.368 ( 0.335 ), LH mean:  6.221 ( 0.379 ) ;  (horizon main effect: F( 1 , 56 )= 19.457 , p= 0 , pes= 0.258 ; WASI main effect: F( 1 , 56 )= 17.172 , p= 0 , pes= 0.235 ; WASI-by-horizon interaction: F( 1 , 56 ) = 0.605 , p= 0.44 , pes= 0.011 ; PANAS_NA main effect: F( 1 , 56 ) = 1.225 , p= 0.273 , pes= 0.021 ; PANAS_NA-by-horizon interaction: F( 1 , 56 ) = 1.567 , p= 0.216 , pes= 0.027 )
+
+-------------------------------------------------------
+
+Pairwise comparisons for horizon effect (placebo: t( 19 )= -2.988 , p= 0.008 ; noradrenaline: t( 20 )= -2.651 , p= 0.016 ; dopamine: t( 20 )= -1.932 , p= 0.068 )
+
+
+
+RT:
+
+ SH mean:  2677.888 ( 717.245 ), LH mean:  2672.784 ( 762.209 ) ;  (horizon main effect: F( 1 , 56 )= 0.012 , p= 0.915 , pes= 0 ; WASI main effect: F( 1 , 56 )= 1.25 , p= 0.268 , pes= 0.022 ; WASI-by-horizon interaction: F( 1 , 56 ) = 0.646 , p= 0.425 , pes= 0.011 ; PANAS_NA main effect: F( 1 , 56 ) = 1.111 , p= 0.296 , pes= 0.019 ; PANAS_NA-by-horizon interaction: F( 1 , 56 ) = 0.976 , p= 0.327 , pes= 0.017 )
+
+-------------------------------------------------------
+
+Pairwise comparisons for horizon effect (placebo: t( 19 )= 0.745 , p= 0.466 ; noradrenaline: t( 20 )= -0.22 , p= 0.828 ; dopamine: t( 20 )= -0.43 , p= 0.672 )
+
+
+
+SCORE: 1st SH vs 1st LH
+
+ SH mean:  5.904 ( 0.192 ), LH mean:  5.82 ( 0.182 ) ;  (horizon main effect: F( 1 , 56 )= 23.922 , p= 0 , pes= 0.299 ; WASI main effect: F( 1 , 56 )= 13.3 , p= 0.001 , pes= 0.192 ; WASI-by-horizon interaction: F( 1 , 56 ) = 4.201 , p= 0.045 , pes= 0.07 ; PANAS_NA main effect: F( 1 , 56 ) = 1.247 , p= 0.269 , pes= 0.022 ; PANAS_NA-by-horizon interaction: F( 1 , 56 ) = 0.631 , p= 0.431 , pes= 0.011 )
+
+-------------------------------------------------------
+
+Pairwise comparisons for horizon effect (placebo: t( 19 )= -4.411 , p= 0 ; noradrenaline: t( 20 )= -2.324 , p= 0.031 ; dopamine: t( 20 )= -1.819 , p= 0.085 )
+
+
+
+SCORE: 1st SH vs all LH
+
+ SH mean:  5.904 ( 0.192 ), LH mean:  6.098 ( 0.222 ) ;  (horizon main effect: F( 1 , 56 )= 103.759 , p= 0 , pes= 0.649 ; WASI main effect: F( 1 , 56 )= 19.061 , p= 0 , pes= 0.254 ; WASI-by-horizon interaction: F( 1 , 56 ) = 0.168 , p= 0.684 , pes= 0.003 ; PANAS_NA main effect: F( 1 , 56 ) = 0.423 , p= 0.518 , pes= 0.007 ; PANAS_NA-by-horizon interaction: F( 1 , 56 ) = 0.038 , p= 0.847 , pes= 0.001 )
+
+-------------------------------------------------------
+
+Pairwise comparisons for horizon effect (placebo: t( 19 )= 4.239 , p= 0 ; noradrenaline: t( 20 )= 8.311 , p= 0 ; dopamine: t( 20 )= 6.167 , p= 0 )

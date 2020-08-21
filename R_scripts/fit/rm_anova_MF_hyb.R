@@ -2,7 +2,7 @@
 
 # From example: https://www.datanovia.com/en/lessons/repeated-measures-anova-in-r/
 
-rm_anova_MF_ucb <- function(x1, x2) {
+rm_anova_MF_hyb <- function(x1, x2) {
 
   library(car)
   library(tidyverse)

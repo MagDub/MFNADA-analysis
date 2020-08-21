@@ -14,22 +14,19 @@ rm_anova_MF_only_hor <- function(x1, x2) {
   # x1 <- 'high_SH'
   # x2 <- 'high_LH'
   
-  dataMF <- read_excel("~/GoogleDrive/UCL/MF/analysis/stats/data_for_R/thomp_3_params_like_param_recovery_Q0norm_no506.xlsx")    
+  dataMF <- read_excel("~/GoogleDrive/UCL/MF/analysis/stats/data_for_R/thomp_3_params_like_param_recovery_Q0norm.xlsx")  
   
-  # Take only subset: concatenate the ones we want
-  data_tmp <- dataMF
+  # Remove participant 506
+  dataMF <- dataMF[-c(6), ]
   
   # Change from wide to long format
-  data_tmp <- data_tmp %>%
+  data_tmp <- dataMF %>%
     gather(key = "hor", value = "freq", x1, x2) %>%
     convert_as_factor(Participant, hor)
   
-  # Display
-  #head(data_tmp)
-  
   # Summary statistics
-  data_tmp %>%
-    group_by(hor, Drug) %>%
+  sum_stats <- data_tmp %>%
+    group_by(hor) %>%
     get_summary_stats(freq, type = "mean_sd")
   
   # Anova computation
@@ -51,6 +48,7 @@ rm_anova_MF_only_hor <- function(x1, x2) {
   #es <- cohens_d(data=data_tmp, comparisons = list(c("placebo","amisulpride"), freq ~ hor, paired = TRUE)
   
   sentence1=paste(
+    " SH mean: ",  sum_stats$mean[2], "(", sum_stats$sd[2], "), LH mean: ",  sum_stats$mean[1], "(", sum_stats$sd[1], ") ;",
     " (horizon main effect: F(", 
     tab$DFn[3],",",tab$DFd[3],")=",round(tab$F[3],3),", p=", round(tab$p[3],3), ", pes=", round(tab$pes[3],3), 
     "; WASI main effect: F(",

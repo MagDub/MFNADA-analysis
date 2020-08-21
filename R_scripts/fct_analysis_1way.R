@@ -10,7 +10,10 @@ library(emmeans)
 library(readxl)
   
 
-dataMF <- read_excel("~/GoogleDrive/UCL/MF/analysis/stats/data_for_R/thomp_3_params_like_param_recovery_Q0norm_no506.xlsx")       
+  dataMF <- read_excel("~/GoogleDrive/UCL/MF/analysis/stats/data_for_R/thomp_3_params_like_param_recovery_Q0norm.xlsx")  
+  
+  # Remove participant 506
+  dataMF <- dataMF[-c(6), ]     
 
 # Take only subset
 data_tmp <- dataMF %>%
@@ -18,7 +21,7 @@ data_tmp <- dataMF %>%
   rename(meas = meas)
 
 # Summary statistics
-data_tmp %>%
+sum_stats <- data_tmp %>%
   group_by(Drug) %>%
   get_summary_stats(meas, type = "mean_sd")
 
@@ -38,6 +41,9 @@ pwc <- data_tmp %>%
   )
 
 sentence1=paste(
+  " amisulpride, mean: ",  round(sum_stats$mean[1],2), "(", round(sum_stats$sd[1],2), ");",
+  " placebo, mean: ",  round(sum_stats$mean[2],2), "(", round(sum_stats$sd[2],2), ");",
+  " propranolol, mean: ",  round(sum_stats$mean[3],2), "(", round(sum_stats$sd[3],2), ");",
   " (drug main effect: F(",
   tab$DFn[3],",",tab$DFd[3],")=",round(tab$F[3],3),", p=", round(tab$p[3],3), ", pes=", round(tab$pes[3],3),
   "; WASI main effect: F(",

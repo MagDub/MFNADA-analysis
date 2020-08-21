@@ -1,4 +1,6 @@
 
+source('~/MFnada/MFNADA-Stats/R_scripts/fct_analysis_1way.R')
+source('~/MFnada/MFNADA-Stats/R_scripts/fct_analysis_1way_nocov.R')
 
 #### ALL GROUPS
 

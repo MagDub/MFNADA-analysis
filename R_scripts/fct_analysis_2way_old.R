@@ -15,10 +15,7 @@ rm_anova_MF <- function(x1, x2) {
   #x1 <- 'high_SH'
   #x2 <- 'high_LH'
   
-  dataMF <- read_excel("~/GoogleDrive/UCL/MF/analysis/stats/data_for_R/thomp_3_params_like_param_recovery_Q0norm.xlsx")  
-  
-  # Remove participant 506
-  dataMF <- dataMF[-c(6), ]
+  dataMF <- read_excel("~/GoogleDrive/UCL/MF/analysis/stats/data_for_R/thomp_3_params_like_param_recovery_Q0norm_no506.xlsx")    
   
   # Take only subset: concatenate the ones we want
   data_tmp <- dataMF
@@ -29,10 +26,9 @@ rm_anova_MF <- function(x1, x2) {
     convert_as_factor(Participant, hor)
   
   # Summary statistics
-  sum_stats <- data_tmp %>%
+  data_tmp %>%
     group_by(hor, Drug) %>%
     get_summary_stats(freq, type = "mean_sd")
-  
   
   # Anova computation
   res.aov <- anova_test(
@@ -80,9 +76,6 @@ rm_anova_MF <- function(x1, x2) {
   effect_pwcH2 <-cohensD(freq ~ hor, data = data_tmp2, method = "paired")
   
   sentence1=paste(
-    " amisulpride, SH-LH mean: ",  round(sum_stats$mean[4],2), "(", round(sum_stats$sd[4],2), "), ",  round(sum_stats$mean[1],2), "(", round(sum_stats$sd[1],2), ") ;",
-    " placebo, SH-LH mean: ",  round(sum_stats$mean[5],2), "(", round(sum_stats$sd[5],2), "), ",  round(sum_stats$mean[2],2), "(", round(sum_stats$sd[2],2), ") ;",
-    " propranolol, SH-LH mean: ",  round(sum_stats$mean[6],2), "(", round(sum_stats$sd[6],2), "), ",  round(sum_stats$mean[3],2), "(", round(sum_stats$sd[3],2), ") ;",
     " (horizon main effect: F(", 
     tab$DFn[4],",",tab$DFd[4],")=",round(tab$F[4],3),", p=", round(tab$p[4],3), ", pes=", round(tab$pes[4],3), 
     "; drug main effect: F(",
