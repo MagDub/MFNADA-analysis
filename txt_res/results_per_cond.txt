@@ -1,0 +1,44 @@
+
+
+HIGH VALUE 
+
+ (condition main effect: F( 1.81 , 101.33 )= 237.051 , p= 0 , pes= 0.809 )
+
+-------------------------------------------------------
+
+Pairwise comparisons for condition effect 
+    (  AB vs ABD: t( 59 )= -15.122 , p= 0 , d= 1.969 ; AB vs AD: t( 59 )= 0.364 , p= 0.717 , d= 0.047 ; AB vs BD: t( 59 )= 6.986 , p= 0 , d= 0.909 ; ABD vs AD: t( 59 )= 12.905 , p= 0 , d= 1.68 ; ABD vs BD: t( 59 )= 18.348 , p= 0 , d= 2.389 ; AD vs BD: t( 59 )= 5.44 , p= 0 , d= 0.708 )
+
+-------------------------------------------------------
+
+
+
+LOW VALUE:
+
+ (condition main effect: F( 1.66 , 92.74 )= 4.534 , p= 0.019 , pes= 0.075 )
+
+-------------------------------------------------------
+
+Variables; 1= pickedlow_ABD_mean 2= pickedlow_AD_mean 3= pickedlow_BD_mean
+
+-------------------------------------------------------
+Pairwise comparisons for condition effect 
+    (  1 vs 2: t( 59 )= 2.731 , p= 0.008 , d= 0.356 ; 1 vs 3: t( 59 )= 1.32 , p= 0.192 , d= 0.172 ; 2 vs 3: t( 59 )= -1.958 , p= 0.055 , d= 0.255 )
+
+-------------------------------------------------------
+
+
+
+NOVEL VALUE:
+
+ (condition main effect: F( 2 , 112 )= 42.44 , p= 0 , pes= 0.431 )
+
+-------------------------------------------------------
+
+Variables; 1= pickednovel_AB_mean 2= pickednovel_AD_mean 3= pickednovel_BD_mean
+
+-------------------------------------------------------
+Pairwise comparisons for condition effect 
+    (  1 vs 2: t( 59 )= -4.146 , p= 0 , d= 0.54 ; 1 vs 3: t( 59 )= -9.414 , p= 0 , d= 1.226 ; 2 vs 3: t( 59 )= -5.001 , p= 0 , d= 0.651 )
+
+-------------------------------------------------------
