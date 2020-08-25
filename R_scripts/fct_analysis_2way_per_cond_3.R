@@ -3,7 +3,7 @@
 
 # From example: https://www.datanovia.com/en/lessons/repeated-measures-anova-in-r/
 
-rm_anova_MF_per_cond_3 <- function(x1, x2, x3) {
+rm_anova_MF_per_cond_3 <- function(x1, x2, x3, file_) {
 
   library(car)
   library(tidyverse)
@@ -16,7 +16,7 @@ rm_anova_MF_per_cond_3 <- function(x1, x2, x3) {
   #x2 <-'pickedlow_AD_mean'
   #x3 <-'pickedlow_BD_mean'
 
-  dataMF <- read_excel("~/MFnada/data/modelfit/thompson_percond/behaviour.xlsx")  
+  dataMF <- read_excel(file_)  
   
   # Remove participant 506
   dataMF <- dataMF[-c(6), ]

@@ -6,8 +6,11 @@ HIGH VALUE
 
 -------------------------------------------------------
 
+Variables; 1= pickedhigh_AB_mean 2= pickedhigh_ABD_mean 3= pickedhigh_BD_mean 4= pickedhigh_AD_mean
+-------------------------------------------------------
+
 Pairwise comparisons for condition effect 
-    (  AB vs ABD: t( 59 )= -15.122 , p= 0 , d= 1.969 ; AB vs AD: t( 59 )= 0.364 , p= 0.717 , d= 0.047 ; AB vs BD: t( 59 )= 6.986 , p= 0 , d= 0.909 ; ABD vs AD: t( 59 )= 12.905 , p= 0 , d= 1.68 ; ABD vs BD: t( 59 )= 18.348 , p= 0 , d= 2.389 ; AD vs BD: t( 59 )= 5.44 , p= 0 , d= 0.708 )
+    (  1 vs 2: t( 59 )= -15.122 , p= 0 , d= 1.969 ; 1 vs 3: t( 59 )= 6.986 , p= 0 , d= 0.909 ; 1 vs 4: t( 59 )= 0.364 , p= 0.717 , d= 0.047 ; 2 vs 3: t( 59 )= 18.348 , p= 0 , d= 2.389 ; 2 vs 4: t( 59 )= 12.905 , p= 0 , d= 1.68 ; 3 vs 4: t( 59 )= 5.44 , p= 0 , d= 0.708 )
 
 -------------------------------------------------------
 
@@ -40,5 +43,53 @@ Variables; 1= pickednovel_AB_mean 2= pickednovel_AD_mean 3= pickednovel_BD_mean
 -------------------------------------------------------
 Pairwise comparisons for condition effect 
     (  1 vs 2: t( 59 )= -4.146 , p= 0 , d= 0.54 ; 1 vs 3: t( 59 )= -9.414 , p= 0 , d= 1.226 ; 2 vs 3: t( 59 )= -5.001 , p= 0 , d= 0.651 )
+
+-------------------------------------------------------
+
+
+
+SGM0:
+
+ (condition main effect: F( 2.56 , 143.22 )= 7.114 , p= 0 , pes= 0.113 )
+
+-------------------------------------------------------
+
+Variables; 1= param_sgm0_AB_mean 2= param_sgm0_ABD_mean 3= param_sgm0_AD_mean 4= param_sgm0_BD_mean
+-------------------------------------------------------
+
+Pairwise comparisons for condition effect 
+    (  1 vs 2: t( 59 )= -3.458 , p= 0.001 , d= 0.45 ; 1 vs 3: t( 59 )= -1.11 , p= 0.272 , d= 0.084 ; 1 vs 4: t( 59 )= 0.648 , p= 0.52 , d= 0.144 ; 2 vs 3: t( 59 )= 2.475 , p= 0.016 , d= 0.52 ; 2 vs 4: t( 59 )= 3.991 , p= 0 , d= 0.322 ; 3 vs 4: t( 59 )= -1.455 , p= 0.151 , d= 0.189 )
+
+-------------------------------------------------------
+
+
+
+EPSILON:
+
+ (condition main effect: F( 3 , 168 )= 1.124 , p= 0.341 , pes= 0.02 )
+
+-------------------------------------------------------
+
+Variables; 1= param_epsilon_AB_mean 2= param_epsilon_ABD_mean 3= param_epsilon_AD_mean 4= param_epsilon_BD_mean
+-------------------------------------------------------
+
+Pairwise comparisons for condition effect 
+    (  1 vs 2: t( 59 )= -0.874 , p= 0.386 , d= 0.114 ; 1 vs 3: t( 59 )= 0.007 , p= 0.994 , d= 0.121 ; 1 vs 4: t( 59 )= 0.929 , p= 0.357 , d= 0.001 ; 2 vs 3: t( 59 )= 1.04 , p= 0.303 , d= 0.241 ; 2 vs 4: t( 59 )= 1.848 , p= 0.07 , d= 0.135 ; 3 vs 4: t( 59 )= -0.977 , p= 0.333 , d= 0.127 )
+
+-------------------------------------------------------
+
+
+
+NOV:
+
+ (condition main effect: F( 3 , 168 )= 17.307 , p= 0 , pes= 0.236 )
+
+-------------------------------------------------------
+
+Variables; 1= param_eta_AB_mean 2= param_eta_ABD_mean 3= param_eta_AD_mean 4= param_eta_BD_mean
+-------------------------------------------------------
+
+Pairwise comparisons for condition effect 
+    (  1 vs 2: t( 59 )= -4.435 , p= 0 , d= 0.577 ; 1 vs 3: t( 59 )= 0.734 , p= 0.466 , d= 0.312 ; 1 vs 4: t( 59 )= 2.395 , p= 0.02 , d= 0.096 ; 2 vs 3: t( 59 )= 5.808 , p= 0 , d= 0.976 ; 2 vs 4: t( 59 )= 7.501 , p= 0 , d= 0.756 ; 3 vs 4: t( 59 )= -1.766 , p= 0.083 , d= 0.23 )
 
 -------------------------------------------------------

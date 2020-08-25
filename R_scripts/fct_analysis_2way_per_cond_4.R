@@ -3,7 +3,7 @@
 
 # From example: https://www.datanovia.com/en/lessons/repeated-measures-anova-in-r/
 
-rm_anova_MF_per_cond_4 <- function(x1, x2, x3, x4) {
+rm_anova_MF_per_cond_4 <- function(x1, x2, x3, x4, file_) {
 
   library(car)
   library(tidyverse)
@@ -17,7 +17,7 @@ rm_anova_MF_per_cond_4 <- function(x1, x2, x3, x4) {
   #x3 <-'pickedhigh_BD_mean'
   #x4 <-'pickedhigh_AD_mean'
   
-  dataMF <- read_excel("~/MFnada/data/modelfit/thompson_percond/behaviour.xlsx")  
+  dataMF <- read_excel(file_)  
   
   # Remove participant 506
   dataMF <- dataMF[-c(6), ]
@@ -91,24 +91,27 @@ rm_anova_MF_per_cond_4 <- function(x1, x2, x3, x4) {
     ")") 
   
   sentence2=paste(
+    "Variables; 1=", x1, "2=", x2, "3=", x3, "4=", x4)
+  
+  sentence3=paste(
     "Pairwise comparisons for condition effect 
-    (  AB vs ABD: t(",
+    (  1 vs 2: t(",
     pwcH$n1[1],")=", round(pwcH$statistic[1],3),", p=", round(pwcH$p[1],3), ", d=", round(effect_pwcH_x12,3),
-    "; AB vs AD: t(",
-    pwcH$n1[2],")=", round(pwcH$statistic[2],3),", p=", round(pwcH$p[2],3), ", d=", round(effect_pwcH_x14,3),
-    "; AB vs BD: t(",
+    "; 1 vs 3: t(",
     pwcH$n1[3],")=", round(pwcH$statistic[3],3),", p=", round(pwcH$p[3],3), ", d=", round(effect_pwcH_x13,3),
-    "; ABD vs AD: t(",
-    pwcH$n1[4],")=", round(pwcH$statistic[4],3),", p=", round(pwcH$p[4],3), ", d=", round(effect_pwcH_x24,3),
-    "; ABD vs BD: t(",
+    "; 1 vs 4: t(",
+    pwcH$n1[2],")=", round(pwcH$statistic[2],3),", p=", round(pwcH$p[2],3), ", d=", round(effect_pwcH_x14,3),
+    "; 2 vs 3: t(",
     pwcH$n1[5],")=", round(pwcH$statistic[5],3),", p=", round(pwcH$p[5],3), ", d=", round(effect_pwcH_x23,3),
-    "; AD vs BD: t(",
+    "; 2 vs 4: t(",
+    pwcH$n1[4],")=", round(pwcH$statistic[4],3),", p=", round(pwcH$p[4],3), ", d=", round(effect_pwcH_x24,3),
+    "; 3 vs 4: t(",
     pwcH$n1[6],")=", round(pwcH$statistic[6],3),", p=", round(pwcH$p[6],3), ", d=", round(effect_pwcH_x34,3),
     ")")
   
   mid=paste("-------------------------------------------------------")
 
-  output_txt = c(sentence1,paste(""), mid, paste(""),sentence2,paste(""), mid)
+  output_txt = c(sentence1,paste(""), mid, paste(""),sentence2,mid, paste(""),sentence3,paste(""), mid)
   
   return(output_txt)
 }
