@@ -17,6 +17,7 @@ all_text = c(
   '1st SH:','', rm_anova_MF_1way('first_SH'),'','', '', 
   '1st LH:','', rm_anova_MF_1way('first_LH'),'','', '', 
   'all LH:','', rm_anova_MF_1way('all_LH'),'','', '', 
+  'score:','', rm_anova_MF_1way('score_average'),'','', '', 
   
   'PANASpost_NA:','', rm_anova_MF_1way_nocov('PANASpost_NA'),'','', '', 
   'PANASpost_PA:','', rm_anova_MF_1way_nocov('PANASpost_PA'),'','', '', 
