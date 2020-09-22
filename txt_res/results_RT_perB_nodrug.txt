@@ -1,0 +1,9 @@
+
+
+RT:
+
+ (bandit main effect: F( 2.42 , 130.43 )= 25.045 , p= 0 , pes= 0.317 ; WASI main effect: F( 1 , 54 )= 0.365 , p= 0.548 , pes= 0.007 ; PANAS_NA main effect: F( 1 , 54 ) = 0.602 , p= 0.441 , pes= 0.011 )
+
+-------------------------------------------------------
+
+Pairwise comparisons for bandit effect (high vs low: t( 59 )= 1.104 , p= 0.274 , d= 0.146 ; high vs medium: t( 59 )= -6.972 , p= 0 , d= 0.908 ; high vs novel: t( 59 )= -0.138 , p= 0.891 , d= 0.018 ; low vs medium: t( 59 )= -6.013 , p= 0 , d= 0.796 ; low vs novel: t( 59 )= -1.395 , p= 0.168 , d= 0.185 ; medium vs novel: t( 59 )= 6.104 , p= 0 , d= 0.795 )

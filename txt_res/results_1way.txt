@@ -137,3 +137,93 @@ AGE:
 -------------------------------------------------------
 
 Pairwise comparisons for drug effect (placebo vs noradrenaline: t( 56 )= 0.866 , p= 0.39 , d= 0.255 ; dopamine vs placebo: t( 56 )= -0.639 , p= 0.526 , d= 0.203 ; dopamine vs noradrenaline: t( 56 )= 0.216 , p= 0.83 , d= 0.076 )
+
+
+
+INITIAL SYSTOLIC:
+
+ (drug main effect: F( 2 , 55 )= 0.438 , p= 0.648 , pes= 0.016 )
+
+-------------------------------------------------------
+
+Pairwise comparisons for drug effect (placebo vs noradrenaline: t( 55 )= -0.682 , p= 0.498 , d= 0.213 ; dopamine vs placebo: t( 55 )= 0.892 , p= 0.376 , d= 0.297 ; dopamine vs noradrenaline: t( 55 )= 0.228 , p= 0.82 , d= 0.073 )
+
+
+
+INITIAL DIASTOLIC:
+
+ (drug main effect: F( 2 , 55 )= 0.115 , p= 0.891 , pes= 0.004 )
+
+-------------------------------------------------------
+
+Pairwise comparisons for drug effect (placebo vs noradrenaline: t( 55 )= -0.134 , p= 0.894 , d= 0.041 ; dopamine vs placebo: t( 55 )= 0.468 , p= 0.642 , d= 0.161 ; dopamine vs noradrenaline: t( 55 )= 0.338 , p= 0.737 , d= 0.106 )
+
+
+
+INITIAL PULSE:
+
+ (drug main effect: F( 2 , 55 )= 0.29 , p= 0.749 , pes= 0.01 )
+
+-------------------------------------------------------
+
+Pairwise comparisons for drug effect (placebo vs noradrenaline: t( 55 )= 0.585 , p= 0.561 , d= 0.196 ; dopamine vs placebo: t( 55 )= 0.142 , p= 0.888 , d= 0.043 ; dopamine vs noradrenaline: t( 55 )= 0.711 , p= 0.48 , d= 0.233 )
+
+
+
+PRE TASK SYSTOLIC:
+
+ (drug main effect: F( 2 , 55 )= 1.841 , p= 0.168 , pes= 0.063 )
+
+-------------------------------------------------------
+
+Pairwise comparisons for drug effect (placebo vs noradrenaline: t( 55 )= 0.843 , p= 0.403 , d= 0.264 ; dopamine vs placebo: t( 55 )= 1.096 , p= 0.278 , d= 0.365 ; dopamine vs noradrenaline: t( 55 )= 1.916 , p= 0.061 , d= 0.613 )
+
+
+
+PRE TASK DIASTOLIC:
+
+ (drug main effect: F( 2 , 55 )= 1.111 , p= 0.337 , pes= 0.039 )
+
+-------------------------------------------------------
+
+Pairwise comparisons for drug effect (placebo vs noradrenaline: t( 55 )= 1.089 , p= 0.281 , d= 0.312 ; dopamine vs placebo: t( 55 )= 0.359 , p= 0.721 , d= 0.109 ; dopamine vs noradrenaline: t( 55 )= 1.419 , p= 0.162 , d= 0.579 )
+
+
+
+PRE TASK PULSE:
+
+ (drug main effect: F( 2 , 55 )= 0.667 , p= 0.517 , pes= 0.024 )
+
+-------------------------------------------------------
+
+Pairwise comparisons for drug effect (placebo vs noradrenaline: t( 55 )= 1.144 , p= 0.258 , d= 0.381 ; dopamine vs placebo: t( 55 )= -0.416 , p= 0.679 , d= 0.132 ; dopamine vs noradrenaline: t( 55 )= 0.698 , p= 0.488 , d= 0.22 )
+
+
+
+END SYSTOLIC:
+
+ (drug main effect: F( 2 , 55 )= 1.584 , p= 0.214 , pes= 0.054 )
+
+-------------------------------------------------------
+
+Pairwise comparisons for drug effect (placebo vs noradrenaline: t( 55 )= 1.433 , p= 0.158 , d= 0.446 ; dopamine vs placebo: t( 55 )= 0.225 , p= 0.823 , d= 0.068 ; dopamine vs noradrenaline: t( 55 )= 1.62 , p= 0.111 , d= 0.582 )
+
+
+
+END DIASTOLIC:
+
+ (drug main effect: F( 2 , 55 )= 0.037 , p= 0.964 , pes= 0.001 )
+
+-------------------------------------------------------
+
+Pairwise comparisons for drug effect (placebo vs noradrenaline: t( 55 )= 0.065 , p= 0.949 , d= 0.02 ; dopamine vs placebo: t( 55 )= -0.261 , p= 0.795 , d= 0.085 ; dopamine vs noradrenaline: t( 55 )= -0.198 , p= 0.844 , d= 0.068 )
+
+
+
+END PULSE:
+
+ (drug main effect: F( 2 , 55 )= 7.249 , p= 0.002 , pes= 0.209 )
+
+-------------------------------------------------------
+
+Pairwise comparisons for drug effect (placebo vs noradrenaline: t( 55 )= 3.5 , p= 0.001 , d= 1.293 ; dopamine vs placebo: t( 55 )= -0.394 , p= 0.695 , d= 0.119 ; dopamine vs noradrenaline: t( 55 )= 3.013 , p= 0.004 , d= 0.921 )

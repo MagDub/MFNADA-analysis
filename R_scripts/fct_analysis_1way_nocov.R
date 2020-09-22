@@ -9,8 +9,11 @@ library(emmeans)
 library(lsr)
 library(readxl)
 
-dataMF <- read_excel("~/GoogleDrive/UCL/MF/analysis/stats/data_for_R/thomp_3_params_like_param_recovery_Q0norm_no506.xlsx")       
+dataMF <- read_excel("~/GoogleDrive/UCL/MF/analysis/stats/data_for_R/thomp_3_params_like_param_recovery_Q0norm.xlsx")  
 
+# Remove participant 506
+dataMF <- dataMF[-c(6), ]  
+  
 # Take only subset
 data_tmp <- dataMF %>%
   select(Participant, Drug, DrugCode, meas, matrix_score, PANASpost_NA) %>%

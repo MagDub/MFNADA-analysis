@@ -1,5 +1,5 @@
 
-source('~/GoogleDrive/UCL/MF/analysis/stats/R_scripts/fct_analysis_2way_nocov.R')
+source('~/MFnada/MFNADA-Stats/R_scripts/fct_analysis_2way_nocov.R')
 
 
 #### ALL GROUPS
@@ -26,6 +26,6 @@ all_text = c(
   'SCORE: 1st SH vs all LH','', rm_anova_MF_nocov('first_SH', 'all_LH') 
 )
 
-fileConn<-file("~/GoogleDrive/UCL/MF/analysis/stats/txt_res/results_nocov.txt")
+fileConn<-file("~/MFnada/MFNADA-Stats/R_scripts/txt_res/results_nocov.txt")
 writeLines(all_text, fileConn)
 close(fileConn)
