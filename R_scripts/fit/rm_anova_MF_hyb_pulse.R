@@ -2,7 +2,7 @@
 
 # From example: https://www.datanovia.com/en/lessons/repeated-measures-anova-in-r/
 
-rm_anova_MF_ucb <- function(x1, x2) {
+rm_anova_MF_hyb_pulse <- function(x1, x2) {
 
   library(car)
   library(tidyverse)
@@ -14,10 +14,10 @@ rm_anova_MF_ucb <- function(x1, x2) {
   #x1 <- 'xi_short'
   #x2 <- 'xi_long'
   
-  dataMF <- read_excel("~/MFnada/data/modelfit/ucb_prior1normal/concatenated/model_parameters.xlsx")
+  dataMF <- read_excel("~/MFnada/data/modelfit/hybrid_prior1normal/concatenated/model_parameters.xlsx")
   
   # Remove participant 506
-  dataMF_ <- dataMF[-c(6), c('ID', x1, x2, 'matrix_score', 'PANASpost_NA', 'drug_code') ]
+  dataMF_ <- dataMF[-c(6), c('ID', x1, x2, 'matrix_score', 'PANASpost_NA', 'drug_code', 'end_pulse') ]
   
   # Change from wide to long format
   data_tmp <- dataMF_  %>%
@@ -34,7 +34,7 @@ rm_anova_MF_ucb <- function(x1, x2) {
     data = data_tmp, dv = freq, wid = ID,
     within = hor,
     between = drug_code,
-    covariate = c(matrix_score, PANASpost_NA),
+    covariate = c(matrix_score, PANASpost_NA, end_pulse),
     effect.size = "pes"
   )
   
@@ -76,19 +76,15 @@ rm_anova_MF_ucb <- function(x1, x2) {
   
   sentence1=paste(
     " (horizon main effect: F(", 
-    tab$DFn[4],",",tab$DFd[4],")=",round(tab$F[4],3),", p=", round(tab$p[4],3), ", pes=", round(tab$pes[4],3), 
+    tab$DFn[5],",",tab$DFd[5],")=",round(tab$F[5],3),", p=", round(tab$p[5],3), ", pes=", round(tab$pes[5],3), 
     "; drug main effect: F(",
-    tab$DFn[3],",",tab$DFd[3],")=",round(tab$F[3],3),", p=", round(tab$p[3],3), ", pes=", round(tab$pes[3],3),
+    tab$DFn[4],",",tab$DFd[4],")=",round(tab$F[4],3),", p=", round(tab$p[4],3), ", pes=", round(tab$pes[4],3),
     "; drug-by-horizon interaction: F(",
-    tab$DFn[7],",",tab$DFd[7],")=",round(tab$F[7],3),", p=", round(tab$p[7],3), ", pes=", round(tab$pes[7],3),
+    tab$DFn[9],",",tab$DFd[9],")=",round(tab$F[9],3),", p=", round(tab$p[9],3), ", pes=", round(tab$pes[9],3),
+    "; Pulse main effect: F(",
+    tab$DFn[3],",",tab$DFd[3],")=",round(tab$F[3],3),", p=", round(tab$p[3],3), ", pes=", round(tab$pes[3],3),
     "; WASI main effect: F(",
     tab$DFn[1],",",tab$DFd[1],")=",round(tab$F[1],3),", p=", round(tab$p[1],3), ", pes=", round(tab$pes[1],3),
-    "; WASI-by-horizon interaction: F(",
-    tab$DFn[5],",",tab$DFd[5],") =",round(tab$F[5],3),", p=", round(tab$p[5],3), ", pes=", round(tab$pes[5],3),
-    "; PANAS_NA main effect: F(",
-    tab$DFn[2],",",tab$DFd[2],") =",round(tab$F[2],3),", p=", round(tab$p[2],3), ", pes=", round(tab$pes[2],3),
-    "; PANAS_NA-by-horizon interaction: F(",
-    tab$DFn[6],",",tab$DFd[6],") =",round(tab$F[6],3),", p=", round(tab$p[6],3), ", pes=", round(tab$pes[6],3),
     ")") 
   
   sentence2=paste(

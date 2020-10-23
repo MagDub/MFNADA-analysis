@@ -1,0 +1,18 @@
+
+
+systolic:
+
+ (Drug main effect: F( 2 , 55 )= 0.582 , p= 0.562 , pes= 0.021 ; Time main effect: F( 1 , 55 )= 8.804 , p= 0.004 , pes= 0.138 ; Drug-by-time interaction: F( 2 , 55 ) = 2.101 , p= 0.132 , pes= 0.071 )
+
+
+
+diastolic:
+
+ (Drug main effect: F( 2 , 55 )= 0.006 , p= 0.994 , pes= 0 ; Time main effect: F( 1 , 55 )= 1.505 , p= 0.225 , pes= 0.027 ; Drug-by-time interaction: F( 2 , 55 ) = 0.365 , p= 0.696 , pes= 0.013 )
+
+
+
+pulse:
+
+ (Drug main effect: F( 2 , 55 )= 2.302 , p= 0.11 , pes= 0.077 ; Time main effect: F( 1 , 55 )= 138.898 , p= 0 , pes= 0.716 ; Drug-by-time interaction: F( 2 , 55 ) = 2.267 , p= 0.113 , pes= 0.076 )
+

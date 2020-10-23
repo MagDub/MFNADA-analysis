@@ -17,13 +17,10 @@ rm_anova_MF_hyb <- function(x1, x2) {
   dataMF <- read_excel("~/MFnada/data/modelfit/hybrid_prior1normal/concatenated/model_parameters.xlsx")
   
   # Remove participant 506
-  dataMF <- dataMF[-c(6), ]
-  
-  # Take only subset: concatenate the ones we want
-  data_tmp <- dataMF
+  dataMF_ <- dataMF[-c(6), c('ID', x1, x2, 'matrix_score', 'PANASpost_NA', 'drug_code') ]
   
   # Change from wide to long format
-  data_tmp <- data_tmp %>%
+  data_tmp <- dataMF_  %>%
     gather(key = "hor", value = "freq", x1, x2) %>%
     convert_as_factor(ID, hor)
   

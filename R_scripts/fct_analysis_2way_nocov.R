@@ -17,10 +17,10 @@ rm_anova_MF_nocov <- function(x1, x2) {
   dataMF <- read_excel("~/GoogleDrive/UCL/MF/analysis/stats/data_for_R/thomp_3_params_like_param_recovery_Q0norm_no506.xlsx")    
   
   # Take only subset: concatenate the ones we want
-  data_tmp <- dataMF
+  data_tmp_ <- dataMF[, c('Participant', 'Drug', 'DrugCode', x1, x2)]
   
   # Change from wide to long format
-  data_tmp <- data_tmp %>%
+  data_tmp <- data_tmp_ %>%
     gather(key = "hor", value = "freq", x1, x2) %>%
     convert_as_factor(Participant, hor)
   

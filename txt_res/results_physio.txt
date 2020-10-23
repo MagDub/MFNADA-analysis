@@ -1,0 +1,33 @@
+
+
+systolic:
+
+ (Drug main effect: F( 2 , 55 )= 1.08 , p= 0.347 , pes= 0.038 ; Time main effect: F( 2 , 110 )= 8.967 , p= 0 , pes= 0.14 ; Drug-by-time interaction: F( 4 , 110 ) = 1.6 , p= 0.179 , pes= 0.055 )
+
+-------------------------------------------------------
+
+Pairwise comparisons for time effect 
+    (  time 3 vs 1: t( 58 )= -2.933 , p= 0.005 , d= 0.08 ; time 3 vs 2: t( 58 )= 0.608 , p= 0.546 , d= 0.08 ; time 1 vs 2: t( 58 )= 4.368 , p= 0 , d= 0.574 )
+
+
+
+diastolic:
+
+ (Drug main effect: F( 2 , 55 )= 0.239 , p= 0.788 , pes= 0.009 ; Time main effect: F( 2 , 110 )= 0.874 , p= 0.42 , pes= 0.016 ; Drug-by-time interaction: F( 4 , 110 ) = 0.951 , p= 0.438 , pes= 0.033 )
+
+-------------------------------------------------------
+
+Pairwise comparisons for time effect 
+    (  time 3 vs 1: t( 58 )= -1.201 , p= 0.235 , d= 0.034 ; time 3 vs 2: t( 58 )= 0.258 , p= 0.797 , d= 0.034 ; time 1 vs 2: t( 58 )= 1.185 , p= 0.241 , d= 0.156 )
+
+
+
+pulse:
+
+ (Drug main effect: F( 2 , 55 )= 1.84 , p= 0.169 , pes= 0.063 ; Time main effect: F( 1.74 , 95.97 )= 99.341 , p= 0 , pes= 0.644 ; Drug-by-time interaction: F( 3.49 , 95.97 ) = 1.928 , p= 0.121 , pes= 0.066 )
+
+-------------------------------------------------------
+
+Pairwise comparisons for time effect 
+    (  time 3 vs 1: t( 58 )= -11.574 , p= 0 , d= 0.433 ; time 3 vs 2: t( 58 )= -3.301 , p= 0.002 , d= 0.433 ; time 1 vs 2: t( 58 )= 10.335 , p= 0 , d= 1.357 )
+
